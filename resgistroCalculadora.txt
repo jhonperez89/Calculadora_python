@@ -1,0 +1,2 @@
+ 2022-05-22 21:16:05.389353 la operacion realizada es: resta y el resultado es: 8.0
+ 2022-05-22 21:16:14.896846 la operacion realizada es: multiplicacion y el resultado es: 46.0
