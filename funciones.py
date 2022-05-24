@@ -2,24 +2,29 @@ from ast import operator
 from datetime import *
 import math
 
+class Calculadora:
 
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
 
-def sumar(a, b):
-     return a+b
-   
-def restar(a, b):
-    return(a - b)
+    def sumar(self):
+        return self.a + self.b
+    
+    def restar(self):
+        return(self.a - self.b)
 
-def multiplicar(a, b):
-    return(a * b)
+    def multiplicar(self):
+        return(self.a * self.b)
 
-def dividir(a, b):
-    return(a / b)
-   
-#####
+    def dividir(self):
+        return(self.a / self.b)
+    
+    #####
 
 def seno(a):
     return math.sin(a)
+        
 
 def coseno(a):
     return math.cos(a)

@@ -1,2 +1,22 @@
  2022-05-22 21:16:05.389353 la operacion realizada es: resta y el resultado es: 8.0
  2022-05-22 21:16:14.896846 la operacion realizada es: multiplicacion y el resultado es: 46.0
+ 2022-05-23 17:11:03.314514 la operacion realizada es: resta y el resultado es: 22.0
+ 2022-05-23 17:23:14.796768 la operacion realizada es: suma y el resultado es: 5.0
+ 2022-05-23 17:23:19.348315 la operacion realizada es: multiplicacion y el resultado es: 8.0
+ 2022-05-23 19:26:08.715499 la operacion realizada es: suma y el resultado es: 3.0
+ 2022-05-23 19:31:56.136055 la operacion realizada es: resta y el resultado es: 2.0
+ 2022-05-23 19:47:53.339749 la operacion realizada es: suma y el resultado es: 8.0
+ 2022-05-23 19:48:00.289568 la operacion realizada es: resta y el resultado es: 32.0
+ 2022-05-23 19:48:06.994076 la operacion realizada es: multiplicacion y el resultado es: 24.0
+ 2022-05-23 19:48:14.237702 la operacion realizada es: Division y el resultado es: 5.0
+ 2022-05-23 20:05:59.297367 la operacion realizada es: suma y el resultado es: 6.0
+ 2022-05-23 20:08:25.186828 la operacion realizada es: Seno y el resultado es: 0.8414709848078965
+ 2022-05-23 20:08:32.679266 la operacion realizada es: Coseno y el resultado es: 0.5403023058681397
+ 2022-05-23 20:08:38.414016 la operacion realizada es: Tangente y el resultado es: 1.5574077246549023
+ 2022-05-23 20:12:26.062966 la operacion realizada es: suma y el resultado es: 15.0
+ 2022-05-23 20:12:31.154611 la operacion realizada es: resta y el resultado es: 6.0
+ 2022-05-23 20:12:36.618231 la operacion realizada es: multiplicacion y el resultado es: 12.0
+ 2022-05-23 20:12:43.003127 la operacion realizada es: Division y el resultado es: 4.0
+ 2022-05-23 20:12:47.411113 la operacion realizada es: Seno y el resultado es: 0.8414709848078965
+ 2022-05-23 20:12:56.099027 la operacion realizada es: Coseno y el resultado es: -0.4161468365471424
+ 2022-05-23 20:13:12.427694 la operacion realizada es: Tangente y el resultado es: 1.5574077246549023

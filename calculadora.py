@@ -4,51 +4,56 @@ usuario = 1
 resultado=0
 print(' ')
 
+
 print('Hola, soy la calculada de Nuevas tecnologias, escriba que funcion quiere realizar')
 
 while usuario != 0:
     print(' ')
 
-    usuario= int((input('1.sumar, 2.restar, 3.multiplicar, 4.dividir, 5.seno, 6.coseno, 7.tangente, 8.NumerosPares, 0.salir: ')))
+    usuario= int((input('''1.sumar, 2.restar, 3.multiplicar, 4.dividir, 5.seno, 6.coseno, 7.tangente, 8.NumerosPares, 0.salir: ''')))
 
     print('-----------------------------------------------------------------------------------------')
 
     if usuario== 'sumar' or usuario == 1 :
         try:
-            a=float(input('Escriba el primer numero que desea sumar:'))
-            b=float(input('Escriba el segundo numero que desea sumar:'))
-            resultado= fc.sumar(a,b)
+            suma = fc.Calculadora(a=float(input('Escriba el primer numero que desea sumar:')), b=float(input('Escriba el segundo numero que desea sumar:')))
+            resultado= suma.sumar()
             fc.registro('suma',resultado)
+            
+            
         except:
             print('por favor valida la informacion')
             
 
     elif usuario=='restar' or usuario == 2 :
         try:
-            a=float(input('Escriba el primer numero que desea restar:'))
-            b=float(input('Escriba el segundo numero que desea restar:'))
-            resultado = fc.restar(a,b)
+            resta = fc.Calculadora(a=float(input('Escriba el primer numero que desea restar:')), b=float(input('Escriba el segundo numero que desea restar:')))
+            resultado = resta.restar()
             fc.registro('resta',resultado)
+            
+            
         except:
             print('por favor valida la informacion')
 
 
     elif usuario=='multiplicar' or usuario == 3:
         try:
-            a=float(input('Escriba el numero que desea multiplicar:'))
-            b=float(input('Escriba el numero multiplicador:'))
-            resultado = fc.multiplicar(a,b)
+            multiplica = fc.Calculadora(a=float(input('Escriba el numero que desea multiplicar:')), b=float(input('Escriba el numero multiplicador:')))
+            resultado = multiplica.multiplicar()
             fc.registro('multiplicacion',resultado)
+            
+            
         except:
             print('por favor valida la informacion')
 
             
     elif usuario=='dividir' or usuario == 4:
         try:
-            a=float(input('Escriba el numero divisor:'))
-            b=float(input('Escriba el numero dividendo:'))
-            resultado= round(fc.dividir(a,b),2)
+            divide = fc.Calculadora(a=float(input('Escriba el numero divisor:')), b=float(input('Escriba el numero dividendo:')))
+            resultado= round(divide.dividir(),2)
             fc.registro('Division',resultado)
+            
+            
         except:
             print('por favor valida la informacion')
 
